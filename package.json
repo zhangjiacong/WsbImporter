@@ -1,0 +1,22 @@
+{
+  "name": "WsbImporter",
+  "version": "1.0.0",
+  "description": "a tool to import html to WSB",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangjiacong/WsbImporter.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "jzhang & cjevning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangjiacong/WsbImporter/issues"
+  },
+  "homepage": "https://github.com/zhangjiacong/WsbImporter"
+}
