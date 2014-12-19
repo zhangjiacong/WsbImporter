@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/zhangjiacong/WsbImporter/issues"
   },
-  "homepage": "https://github.com/zhangjiacong/WsbImporter"
+  "homepage": "https://github.com/zhangjiacong/WsbImporter",
+  "dependencies": {
+    "express": "^4.10.6"
+  }
 }
