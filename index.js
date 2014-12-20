@@ -4,6 +4,7 @@
 var express = require('express');
 var app = express();
 var multer = require('multer');
+var parseHtml = require('./parseHTML');
 var fs = require("fs");
 
     //app.use(express.methodOverride());
@@ -15,13 +16,12 @@ app.get('/', function(req, res){
 });
 
 
-app.post('/api/HtmlToJson', function(req, res){
-    getHtmlContent(req, function(err, data){
-        if(err) return res.send('error');
-        return res.send(data);
+app.post('/api/HtmlToJson', function(req, res) {
+    parseHtml.parseHtml(req.files.file1.path, function(error, results){
+        console.log(results.textNodes);
     });
 });
-
+/*
 function getHtmlContent(req, callback){
     var path = req.files.file1.path;
     fs.readFile(path, 'utf8', function(err, data){
@@ -31,7 +31,7 @@ function getHtmlContent(req, callback){
 
     });
 }
-
+*/
 
 
 
