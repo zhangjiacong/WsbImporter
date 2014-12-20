@@ -7,28 +7,38 @@ function parseHTML(path, callback){
                 return page.includeJs("http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", function() {
                     return page.evaluate((function() {
                         var textNodes = [];
-                        var tags = ["h2", "h3", "h1", "h4", "h5", "p", "a"];
+                        var imageNodes = [];
+                        var textTags = ["h2", "h3", "h1", "h4", "h5", "p", "a"];
                         traverseDom($('body'));
                         function traverseDom(node) {
                             $(node).contents().each(function (index) {
                                 var currNode = $(this);
                                 var tag = currNode.prop("tagName");
-                                var textObj = {};
-                                if (tag != undefined && $.inArray(tag.toLowerCase(), tags) >= 0) {
-                                    textObj.tag = tag;
-                                    textObj.text = currNode.html();
-                                    textObj.top = currNode.offset().top;
-                                    textObj.left = currNode.offset().left;
-                                    textNodes.push(textObj);
-                                }
-                                else if (tag == undefined) {
-                                    if (currNode.text().trim()) {
-                                        textObj.tag = null;
-                                        textObj.text = currNode.text();
-                                        textObj.top = currNode.offset().top;
-                                        textObj.left = currNode.offset().left;
-                                        textNodes.push(textObj);
+                                var buildObj = {};
+                                if (tag == undefined) {
+                                	if (currNode.text().trim()) {
+                                        buildObj.tag = null;
+                                        buildObj.text = currNode.text();
+                                        buildObj.top = currNode.offset().top;
+                                        buildObj.left = currNode.offset().left;
+                                        textNodes.push(buildObj);
                                     }
+                                }
+                                else if ($.inArray(tag.toLowerCase(), textTags) >= 0) {
+                                    buildObj.tag = tag;
+                                    buildObj.text = currNode.html();
+                                    buildObj.top = currNode.offset().top;
+                                    buildObj.left = currNode.offset().left;
+                                    textNodes.push(buildObj);
+                                }
+                                else if (tag.toLowerCase() == "img") {
+                                    buildObj.tag = tag;
+                                    buildObj.src = currNode.src;
+                                    buildObj.top = currNode.offset().top;
+                                    buildObj.left = currNode.offset().left;
+                                    buildObj.height = currNode.height();
+                                    buildObj.width = currNode.width();
+                                    imageNodes.push(buildObj);
                                 }
                                 else {
                                     traverseDom(currNode);
@@ -37,10 +47,10 @@ function parseHTML(path, callback){
                         }
                         return {
                             textNodes: textNodes,
-                            imageNode: []
+                            imageNodes: imageNodes
                         };
                     }), function(result) {
-                        //console.log(result);
+                        console.log(result);
                         callback(null, result);
                         return ph.exit();
                     });
