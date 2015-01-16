@@ -33,7 +33,7 @@ function parseHTML(path, callback){
                                 }
                                 else if (tag.toLowerCase() == "img") {
                                     buildObj.tag = tag;
-                                    buildObj.src = currNode.src;
+                                    buildObj.src = currNode.attr("src");
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
                                     buildObj.height = currNode.height();
