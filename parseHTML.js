@@ -6,6 +6,7 @@ function parseHTML(path, callback){
             return page.open(path, function(status) {
                 return page.includeJs("http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", function() {
                     return page.evaluate((function() {
+                        var title = document.title;
                         var textNodes = [];
                         var imageNodes = [];
                         var textTags = ["h2", "h3", "h1", "h4", "h5", "p", "a"];
@@ -21,7 +22,7 @@ function parseHTML(path, callback){
                                         buildObj.html = currNode.html();
                                         buildObj.top = currNode.offset().top;
                                         buildObj.left = currNode.offset().left;
-                                        buildObj.width = currNode.width();
+                                        buildObj.width = parseInt(currNode.css("width"));
                                         textNodes.push(buildObj);
                                     }
                                 }
@@ -30,7 +31,7 @@ function parseHTML(path, callback){
                                     buildObj.html = currNode.html();
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
-                                    buildObj.width = currNode.width;
+                                    buildObj.width = parseInt(currNode.css("width"));
                                     textNodes.push(buildObj);
                                 }
                                 else if (tag.toLowerCase() == "img") {
@@ -38,8 +39,8 @@ function parseHTML(path, callback){
                                     buildObj.src = currNode.attr("src");
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
-                                    buildObj.height = currNode.height();
-                                    buildObj.width = currNode.width();
+                                    buildObj.height = parseInt(currNode.css("height"));
+                                    buildObj.width = parseInt(currNode.css("width"));
                                     imageNodes.push(buildObj);
                                 }
                                 else {
@@ -49,7 +50,8 @@ function parseHTML(path, callback){
                         }
                         return {
                             textNodes: textNodes,
-                            imageNodes: imageNodes
+                            imageNodes: imageNodes,
+                            pageTitle: title
                         };
                     }), function(result) {
                         console.log(result);

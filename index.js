@@ -30,7 +30,6 @@ app.get('/', function(req, res){
 
 
 app.post('/api/HtmlToJson', function(req, res) {
-    console.log(res);
     parseHtml.parseHtml(req.files.file1.path, function(error, results){
         console.log(results.textNodes);
     });
