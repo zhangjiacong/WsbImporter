@@ -21,6 +21,7 @@ function parseHTML(path, callback){
                                         buildObj.text = currNode.text();
                                         buildObj.top = currNode.offset().top;
                                         buildObj.left = currNode.offset().left;
+                                        buildObj.width = currNode.css("width");
                                         textNodes.push(buildObj);
                                     }
                                 }
@@ -29,6 +30,7 @@ function parseHTML(path, callback){
                                     buildObj.text = currNode.html();
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
+                                    buildObj.width = currNode.css("width");
                                     textNodes.push(buildObj);
                                 }
                                 else if (tag.toLowerCase() == "img") {
@@ -36,8 +38,8 @@ function parseHTML(path, callback){
                                     buildObj.src = currNode.attr("src");
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
-                                    buildObj.height = currNode.height();
-                                    buildObj.width = currNode.width();
+                                    buildObj.height = currNode.css("height");
+                                    buildObj.width = currNode.css("width");
                                     imageNodes.push(buildObj);
                                 }
                                 else {

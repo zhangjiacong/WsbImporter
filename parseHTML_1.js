@@ -34,6 +34,11 @@ function parseHTML(path, callback){
                  //        var openNodes = [];
                          var textTags = ["<h2", "<h3", "<h1", "<h4", "<h5", "<p", "<a"];
                          var imgTag = "<img";
+
+                         var htmlString = "the string of html that i needa edit";
+
+                         var goodTags = ["<h2", "<h3", "<h1", "<h4", "<h5", "<p", "<a", "<img"];
+
                  //        //get page title
                  //        //imageNodes.push(page.content);
                  //        var orString = textTags.join("|");
@@ -52,7 +57,7 @@ function parseHTML(path, callback){
                         	//document.open();
                         	//var htmlString = "<html><head><title>wikiHow Sample Webpage</title></head><body bgcolor=\"pink\" text=\"brown\"><h1>How to Create a Simple Webpage Using Notepad</h1></br></body></html>";
                         	//node = document.write(htmlString);
-                        	/*node = node.replace("\n", "");
+                        	node = node.replace("\n", "");
                         	node = node.replace(/(<(h1|h2|h3|h4|h5|h6|p))[^<]*(>)/, $1$3);
                         	var firstOpen = node.indexOf("<");
                         	
@@ -65,11 +70,18 @@ function parseHTML(path, callback){
                         	var firstClose = node.indexOf(">", firstOpen);
                         	var nextOpen = node.indexOf("<", firstOpen);
                         	while (true) {
+                        		if (node.charAt(nextOpen + 1) != "/") {
+                        			var nextClose = node.indexOf(">", nextOpen);
+                        			var nextSpace = node.indexOf(" ", nextOpen);
+                        			var cutOff = (nextClose < nextSpace) ? nextClose : nextSpace;
+                        			var tag = node.substring(nextOpen, cutOff);
+                        			if ()
+                        		}
                         		var nextTag = node.substring(nextOpen, nextOpen+3);
 
                         		var nextOpen = ""
                         	}
-                        	var firstTag = node.substring(firstOpen, firstOpen+3);
+                        	/*var firstTag = node.substring(firstOpen, firstOpen+3);
                         	var orRegex = new RegExp(orString, "g");
                         	var re = new RegExp(firstTag, "g");
                         	var spaceOrClose = new RegExp(spaceOrCloseString, "g");
@@ -87,7 +99,7 @@ function parseHTML(path, callback){
                                         buildObj.html = currNode.html();
                                         buildObj.top = currNode.offset().top;
                                         buildObj.left = currNode.offset().left;
-                            			buildObj.width = currNode.width;
+                            			buildObj.width = currNode.css("width");
                                         textNodes.push(buildObj);
                                     }
                                 }
@@ -96,7 +108,7 @@ function parseHTML(path, callback){
                                     buildObj.html = currNode.html();
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
-                                    buildObj.width = currNode.width;
+                                    buildObj.width = currNode.css("width");
                                     textNodes.push(buildObj);
                                 }
                                 else if (tag.toLowerCase() == "img") {
@@ -104,8 +116,8 @@ function parseHTML(path, callback){
                                     buildObj.src = currNode.src;
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
-                                    buildObj.height = currNode.height();
-                                    buildObj.width = currNode.width();
+                                    buildObj.height = currNode.css("height");
+                                    buildObj.width = currNode.css("width");
                                     imageNodes.push(buildObj);
                                 }
                                 else {
