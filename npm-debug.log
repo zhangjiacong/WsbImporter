@@ -1,0 +1,133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json WsbImporter@1.0.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/jzhang/WsbImporter', [ 'express', 'multer' ] ]
+7 info preinstall WsbImporter@1.0.0
+8 warn package.json fs@0.0.2 fs is also the name of a node core module.
+9 warn package.json fs@0.0.2 No description
+10 warn package.json fs@0.0.2 No repository field.
+11 verbose readDependencies using package.json deps
+12 verbose already installed skipping express@^4.10.6 /Users/jzhang/WsbImporter
+13 verbose already installed skipping multer@^0.1.6 /Users/jzhang/WsbImporter
+14 silly resolved []
+15 info build /Users/jzhang/WsbImporter
+16 verbose linkStuff [ false, false, false, '/Users/jzhang' ]
+17 info linkStuff WsbImporter@1.0.0
+18 verbose linkBins WsbImporter@1.0.0
+19 verbose linkMans WsbImporter@1.0.0
+20 verbose rebuildBundles WsbImporter@1.0.0
+21 verbose rebuildBundles [ '.bin',
+21 verbose rebuildBundles   'contextify',
+21 verbose rebuildBundles   'cssom',
+21 verbose rebuildBundles   'cssstyle',
+21 verbose rebuildBundles   'express',
+21 verbose rebuildBundles   'fs',
+21 verbose rebuildBundles   'htmlparser',
+21 verbose rebuildBundles   'htmlparser2',
+21 verbose rebuildBundles   'jquery',
+21 verbose rebuildBundles   'jsdom',
+21 verbose rebuildBundles   'multer',
+21 verbose rebuildBundles   'node-phantom',
+21 verbose rebuildBundles   'nwmatcher',
+21 verbose rebuildBundles   'parse5',
+21 verbose rebuildBundles   'phantom',
+21 verbose rebuildBundles   'phantom-proxy',
+21 verbose rebuildBundles   'request' ]
+22 verbose rebuild bundle /Users/jzhang/WsbImporter/node_modules/contextify
+23 info build /Users/jzhang/WsbImporter/node_modules/contextify
+24 info preinstall contextify@0.1.10
+25 verbose linkStuff [ false, false, false, '/Users/jzhang/WsbImporter/node_modules' ]
+26 info linkStuff contextify@0.1.10
+27 verbose linkBins contextify@0.1.10
+28 verbose linkMans contextify@0.1.10
+29 verbose rebuildBundles contextify@0.1.10
+30 verbose rebuildBundles [ 'bindings', 'nan' ]
+31 info install contextify@0.1.10
+32 verbose unsafe-perm in lifecycle true
+33 info postinstall contextify@0.1.10
+34 verbose rebuild bundle /Users/jzhang/WsbImporter/node_modules/cssom
+35 info build /Users/jzhang/WsbImporter/node_modules/cssom
+36 info preinstall cssom@0.3.0
+37 verbose linkStuff [ false, false, false, '/Users/jzhang/WsbImporter/node_modules' ]
+38 info linkStuff cssom@0.3.0
+39 verbose linkBins cssom@0.3.0
+40 verbose linkMans cssom@0.3.0
+41 verbose rebuildBundles cssom@0.3.0
+42 info install cssom@0.3.0
+43 info postinstall cssom@0.3.0
+44 verbose rebuild bundle /Users/jzhang/WsbImporter/node_modules/cssstyle
+45 info build /Users/jzhang/WsbImporter/node_modules/cssstyle
+46 info preinstall cssstyle@0.2.22
+47 verbose linkStuff [ false, false, false, '/Users/jzhang/WsbImporter/node_modules' ]
+48 info linkStuff cssstyle@0.2.22
+49 verbose linkBins cssstyle@0.2.22
+50 verbose linkMans cssstyle@0.2.22
+51 verbose rebuildBundles cssstyle@0.2.22
+52 info install cssstyle@0.2.22
+53 info postinstall cssstyle@0.2.22
+54 verbose rebuild bundle /Users/jzhang/WsbImporter/node_modules/fs
+55 info build /Users/jzhang/WsbImporter/node_modules/fs
+56 info preinstall fs@0.0.2
+57 verbose linkStuff [ false, false, false, '/Users/jzhang/WsbImporter/node_modules' ]
+58 info linkStuff fs@0.0.2
+59 verbose linkBins fs@0.0.2
+60 verbose linkMans fs@0.0.2
+61 verbose rebuildBundles fs@0.0.2
+62 info install fs@0.0.2
+63 info postinstall fs@0.0.2
+64 verbose rebuild bundle /Users/jzhang/WsbImporter/node_modules/htmlparser
+65 info build /Users/jzhang/WsbImporter/node_modules/htmlparser
+66 info preinstall htmlparser@1.7.7
+67 verbose linkStuff [ false, false, false, '/Users/jzhang/WsbImporter/node_modules' ]
+68 info linkStuff htmlparser@1.7.7
+69 verbose linkBins htmlparser@1.7.7
+70 verbose linkMans htmlparser@1.7.7
+71 verbose rebuildBundles htmlparser@1.7.7
+72 info install htmlparser@1.7.7
+73 info postinstall htmlparser@1.7.7
+74 verbose rebuild bundle /Users/jzhang/WsbImporter/node_modules/htmlparser2
+75 info build /Users/jzhang/WsbImporter/node_modules/htmlparser2
+76 info preinstall htmlparser2@3.8.2
+77 verbose linkStuff [ false, false, false, '/Users/jzhang/WsbImporter/node_modules' ]
+78 info linkStuff htmlparser2@3.8.2
+79 verbose linkBins htmlparser2@3.8.2
+80 verbose linkMans htmlparser2@3.8.2
+81 verbose rebuildBundles htmlparser2@3.8.2
+82 verbose rebuildBundles [ 'domelementtype',
+82 verbose rebuildBundles   'domhandler',
+82 verbose rebuildBundles   'domutils',
+82 verbose rebuildBundles   'entities',
+82 verbose rebuildBundles   'readable-stream' ]
+83 info install htmlparser2@3.8.2
+84 info postinstall htmlparser2@3.8.2
+85 verbose rebuild bundle /Users/jzhang/WsbImporter/node_modules/jquery
+86 info build /Users/jzhang/WsbImporter/node_modules/jquery
+87 info preinstall jquery@2.1.3
+88 verbose linkStuff [ false, false, false, '/Users/jzhang/WsbImporter/node_modules' ]
+89 info linkStuff jquery@2.1.3
+90 verbose linkBins jquery@2.1.3
+91 verbose linkMans jquery@2.1.3
+92 verbose rebuildBundles jquery@2.1.3
+93 info install jquery@2.1.3
+94 info postinstall jquery@2.1.3
+95 verbose rebuild bundle /Users/jzhang/WsbImporter/node_modules/jsdom
+96 info build /Users/jzhang/WsbImporter/node_modules/jsdom
+97 error Failed to parse json
+97 error Unexpected token <
+98 error File: /Users/jzhang/WsbImporter/node_modules/jsdom/package.json
+99 error Failed to parse package.json data.
+99 error package.json must be actual JSON, not just JavaScript.
+99 error
+99 error This is not a bug in npm.
+99 error Tell the package author to fix their package.json file. JSON.parse
+100 error System Darwin 13.4.0
+101 error command "node" "/usr/local/bin/npm" "install"
+102 error cwd /Users/jzhang/WsbImporter
+103 error node -v v0.10.32
+104 error npm -v 1.4.28
+105 error file /Users/jzhang/WsbImporter/node_modules/jsdom/package.json
+106 error code EJSONPARSE
+107 verbose exit [ 1, true ]
