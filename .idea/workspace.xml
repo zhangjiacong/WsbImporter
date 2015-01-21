@@ -373,8 +373,8 @@
       <file leaf-file-name="parseHTML.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parseHTML.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8242009" vertical-offset="434" max-vertical-offset="1125">
-              <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.7876712" vertical-offset="0" max-vertical-offset="1170">
+              <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -684,11 +684,6 @@
           <line>9</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/parseHTML.js</url>
-          <line>3</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -954,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parseHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8242009" vertical-offset="434" max-vertical-offset="1125">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.7876712" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
           <folding />
         </state>
       </provider>

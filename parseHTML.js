@@ -23,6 +23,7 @@ function parseHTML(path, callback){
                                         buildObj.top = currNode.offset().top;
                                         buildObj.left = currNode.offset().left;
                                         buildObj.width = parseInt(currNode.css("width"));
+
                                         textNodes.push(buildObj);
                                     }
                                 }
@@ -39,8 +40,10 @@ function parseHTML(path, callback){
                                     buildObj.src = currNode.attr("src");
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
+
                                     buildObj.height = parseInt(currNode.css("height"));
                                     buildObj.width = parseInt(currNode.css("width"));
+
                                     imageNodes.push(buildObj);
                                 }
                                 else {
