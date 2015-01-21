@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63326701-63dd-46ce-81ff-6890d9fd4e1b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/WsbImporter.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/WebStorm8/options/runner.layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$USER_HOME$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/bootstrap/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/bootstrap/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/blank.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/compressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/css.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/developer.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/excel.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/fireworks.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/flash.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/html.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/illustrator.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/keynote.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/movie.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/numbers.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/pages.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/photoshop.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/powerpoint.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/text.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/icons/word.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/images/htmlbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/js/jquery-1.7.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/address_bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/folder_view.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/compiler.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/doctypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/inline-tags.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/jade.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/lexer.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/attrs.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/block-comment.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/block.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/case.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/comment.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/doctype.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/each.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/literal.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/mixin.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/tag.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/nodes/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/self-closing.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/jade/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/mime.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/node_modules/underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/file-explorer/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/bottom-titlebar.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/button_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/button_close_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/frameless_window.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/frameless_window.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/icon_128.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/left-titlebar.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/right-titlebar.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/titlebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/frameless-window/top-titlebar.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/apple.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/banaba.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/cut.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/disk.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/email.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/pear.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/strawberry.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/imgs/tick.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/menus/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/assets/icon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/assets/screenshot-640x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/assets/tile-440x280.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/activeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/changemode.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/closetag.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/complete.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/emacs.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/folding.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/formatting.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/fullscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/loadmode.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/marker.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/matchhighlighter.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/mustache.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/resize.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/runmode.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/vim.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/demo/visibletabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/baboon.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/baboon_vector.svg" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/compress.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/internals.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/manual.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/oldrelease.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/reporting.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/doc/upgrade_v2.2.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/keymap/emacs.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/keymap/vim.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/closetag.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/foldcode.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/formatting.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/javascript-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/loadmode.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/match-highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/overlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/runmode.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/searchcursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/simple-hint.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/lib/util/simple-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/clike/clike.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/clike/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/clojure/clojure.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/clojure/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/coffeescript/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/coffeescript/coffeescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/coffeescript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/css/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/diff/diff.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/diff/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/ecl/ecl.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/ecl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/erlang/erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/erlang/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/gfm/gfm.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/gfm/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/go/go.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/go/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/groovy/groovy.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/groovy/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/haskell/haskell.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/haskell/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/htmlembedded/htmlembedded.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/htmlembedded/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/htmlmixed/htmlmixed.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/htmlmixed/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/jinja2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/jinja2/jinja2.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/less/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/less/less.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/lua/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/lua/lua.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/markdown/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/mysql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/mysql/mysql.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/ntriples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/ntriples/ntriples.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/pascal/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/pascal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/pascal/pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/perl/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/perl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/perl/perl.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/php/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/php/php.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/pig/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/pig/pig.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/plsql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/plsql/plsql.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/properties/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/properties/properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/python/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/python/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/python/python.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/r/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/r/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/r/r.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rpm/changes/changes.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rpm/changes/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rpm/spec/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rpm/spec/spec.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rpm/spec/spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rst/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rst/rst.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/ruby/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/ruby/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/ruby/ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rust/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/rust/rust.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/scheme/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/scheme/scheme.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/shell/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/shell/shell.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/smalltalk/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/smalltalk/smalltalk.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/smarty/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/smarty/smarty.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/sparql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/sparql/sparql.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/stex/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/stex/stex.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/stex/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/tiddlywiki/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/tiddlywiki/tiddlywiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/tiddlywiki/tiddlywiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/tiki/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/tiki/tiki.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/tiki/tiki.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/vbscript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/vbscript/vbscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/velocity/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/velocity/velocity.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/verilog/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/verilog/verilog.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xml/xml.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/test/testBase.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/test/testEmptySequenceKeyword.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/test/testMultiAttr.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/test/testNamespaces.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/test/testProcessingInstructions.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/test/testQuotes.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/xquery/xquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/yaml/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/mode/yaml/yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/test/mode_test.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/test/mode_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/blackboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/cobalt.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/eclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/elegant.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/erlang-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/lesser-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/monokai.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/neat.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/night.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/rubyblue.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/cm/theme/xq-dark.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/128x128/file_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/16x16/diskette.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/16x16/file.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/16x16/file_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/16x16/file_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/32x32/diskette.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/32x32/file.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/32x32/file_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/32x32/file_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/48x48/file_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/64x64/file_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/img/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mini-code-edit/zepto.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/Cakefile" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/lib/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/src/main.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/src/utils/encoder.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/src/views/form.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/vendor/bin/osx/shineenc" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/vendor/bin/win32/libshine-1.dll" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/vendor/bin/win32/shineenc.exe" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/vendor/js/backbone.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/vendor/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/mp3-encoder/vendor/js/underscore.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/icon_128.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/img/button_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/img/button_close_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/js/Detector.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/js/showlogo3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/js/three.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/obj/html5rocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/webgl/styles/main.css" afterPath="" />
+    </list>
+    <ignored path="WsbImporter.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WsbImporter" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.15151516" vertical-offset="0" max-vertical-offset="891">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parseHTML.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parseHTML.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2580">
+              <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="480">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/domParse.js" />
+        <option value="$PROJECT_DIR$/htmlParser.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/parseHTML.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WsbImporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WsbImporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WsbImporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WsbImporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WsbImporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63326701-63dd-46ce-81ff-6890d9fd4e1b" name="Default" comment="" />
+      <created>1419014898221</created>
+      <updated>1419014898221</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32968637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968637" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.49945593" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28671876" sideWeight="0.49945593" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39970824" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28671876" sideWeight="0.5005441" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="630">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2580">
+          <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="480">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="270">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1430" max-vertical-offset="2580">
+          <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parseHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="480">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15151516" vertical-offset="0" max-vertical-offset="891">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -18,7 +18,7 @@ function parseHTML(path, callback){
                                 if (tag == undefined) {
                                 	if (currNode.text().trim()) {
                                         buildObj.tag = null;
-                                        buildObj.text = currNode.text();
+                                        buildObj.html = currNode.html();
                                         buildObj.top = currNode.offset().top;
                                         buildObj.left = currNode.offset().left;
                                         buildObj.width = currNode.css("width");
@@ -27,7 +27,7 @@ function parseHTML(path, callback){
                                 }
                                 else if ($.inArray(tag.toLowerCase(), textTags) >= 0) {
                                     buildObj.tag = tag;
-                                    buildObj.text = currNode.html();
+                                    buildObj.html = currNode.html();
                                     buildObj.top = currNode.offset().top;
                                     buildObj.left = currNode.offset().left;
                                     buildObj.width = currNode.css("width");
